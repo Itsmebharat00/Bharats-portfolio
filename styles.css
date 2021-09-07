@@ -3,6 +3,8 @@
 
 :root {
     --primary-color: #64C9CF;
+    --dary-grey: #716F81;
+
 }
 
 body {
@@ -73,3 +75,25 @@ body {
  .nav-pills {
      text-align: right;
  }
+
+ /**Header**/
+
+  .hero {
+      padding: 2rem;
+    
+  }
+
+  .hero .hero-img {
+       max-width: 350px;
+       display: block;
+       margin: auto;
+  }
+
+  .hero .hero-heading {
+      padding-top: 1rem;
+     color: var(--dary-grey);
+  }
+
+  .hero .hero-heading .heading-inverted {
+      color: var(--primary-color);
+  }
