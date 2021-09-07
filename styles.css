@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 5px;
 }
 
 hr {
@@ -91,6 +92,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dary-grey);
 }
@@ -111,4 +113,21 @@ hr {
 
 .ow {
    background-color: var(--off-white);
+}
+
+/**Footers**/
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+}
+
+footer .link{
+     color: white;
+}
+
+footer ul {
+    padding-inline-start: 0px;
 }
