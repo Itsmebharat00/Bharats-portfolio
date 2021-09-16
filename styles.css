@@ -113,6 +113,10 @@ hr {
     color: var(--primary-color);
 }
 
+#blog-img{
+    max-width: 275px;
+}
+
 /**Section**/
 
 .section {
