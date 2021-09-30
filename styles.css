@@ -137,6 +137,8 @@ hr {
     margin-bottom: 20px;
 }
 
+
+
 /**Footers**/
 
 footer {
@@ -145,6 +147,7 @@ footer {
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
+    margin-top: 20px;
 }
 
 footer .link{
